@@ -188,9 +188,9 @@ $conn->close();
 												<i class='dw dw-more'></i>
 											</a>
 											<div class='dropdown-menu dropdown-menu-right dropdown-menu-icon-list'>
-												<a class='dropdown-item' href='#'><i class='dw dw-eye'></i> View</a>
-												<a class='dropdown-item' href='#'><i class='dw dw-edit2'></i> Edit</a>
-												<a class='dropdown-item' href='#'><i class='dw dw-delete-3'></i> Delete</a>
+												<a class='dropdown-item' href='#'><i class='dw dw-eye'></i> Voir</a>
+												<a class='dropdown-item' href='#'><i class='dw dw-edit2'></i> Modifier</a>
+												<a class='dropdown-item' href='#'><i class='dw dw-delete-3'></i> Supprimer</a>
 											</div>
 										</div>
 									</td>
