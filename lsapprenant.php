@@ -113,11 +113,11 @@ $conn->close();
 					
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-apartment"></span><span class="mtext"> UI Elements </span>
+							<span class="micon dw dw-apartment"></span><span class="mtext"> Option1 </span>
 						</a>
 						<ul class="submenu">
-							<li><a href="ui-modals.html">Modals</a></li>
-							<li><a href="ui-sweet-alert.html">Sweet Alert</a></li>
+							<li><a href="#">Sous op1</a></li>
+							<li><a href="#">Sous op2</a></li>
 						</ul>
 					</li>
 			
@@ -188,9 +188,9 @@ $conn->close();
 												<i class='dw dw-more'></i>
 											</a>
 											<div class='dropdown-menu dropdown-menu-right dropdown-menu-icon-list'>
-												<a class='dropdown-item' href='#'><i class='dw dw-eye'></i> View</a>
-												<a class='dropdown-item' href='#'><i class='dw dw-edit2'></i> Edit</a>
-												<a class='dropdown-item' href='#'><i class='dw dw-delete-3'></i> Delete</a>
+												<a class='dropdown-item' href='#'><i class='dw dw-eye'></i> Voir</a>
+												<a class='dropdown-item' href='#'><i class='dw dw-edit2'></i> Modifier</a>
+												<a class='dropdown-item' href='#'><i class='dw dw-delete-3'></i> Supprimer</a>
 											</div>
 										</div>
 									</td>
