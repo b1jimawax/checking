@@ -113,11 +113,11 @@ $conn->close();
 					
 					<li class="dropdown">
 						<a href="javascript:;" class="dropdown-toggle">
-							<span class="micon dw dw-apartment"></span><span class="mtext"> UI Elements </span>
+							<span class="micon dw dw-apartment"></span><span class="mtext"> Option1 </span>
 						</a>
 						<ul class="submenu">
-							<li><a href="ui-modals.html">Modals</a></li>
-							<li><a href="ui-sweet-alert.html">Sweet Alert</a></li>
+							<li><a href="#">Sous op1</a></li>
+							<li><a href="#">Sous op2</a></li>
 						</ul>
 					</li>
 			
