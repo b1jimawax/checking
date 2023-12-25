@@ -1,3 +1,6 @@
+<?php
+require_once('verifi.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -159,8 +162,8 @@
 									if ($result->num_rows > 0) {
 									echo "
 									<th scope='col' style='padding: 1rem;'>Prénom</th>
-									<th scope='col' style='padding: 1rem;'>Reférenciel</th>
-									<th scope='col' style='padding: 1rem;'>Date/Heures-m-s</th>
+									<th scope='col' style='padding: 1rem;'>Cohorte</th>
+									<th scope='col' style='padding: 1rem;'>Pointage</th>
 									</tr>
 								</thead>";
 

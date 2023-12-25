@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -30,7 +33,7 @@
 	// 	gtag('config', 'UA-119386393-1');
 	// </script> -->
 </head>
-<body class="login-page" style="background:#28a745;background-position: left;background-size: cover;";>
+<body class="login-page" style="background-position: left;background-size: cover;";>
 	<div class="login-header box-shadow" style="background:#28a745;">
 		<div class="container-fluid d-flex justify-content-between align-items-center">
 
@@ -54,7 +57,7 @@
 				<div class="col-md-6 col-lg-5">
 					<div class="login-box bg-white box-shadow border-radius-10">
 						<div class="login-title">
-							<h2 class="text-center text-primary">Administrateur</h2>
+							<h2 class="text-center text-dark">Administrateur</h2>
 						</div>
 						<form method="POST" action="login0.php">	
 							<div class="select-role">
@@ -75,21 +78,21 @@
 								</div>
 							</div>
 							<div class="row pb-30">
-								<div class="col-6">
+								<!-- <div class="col-6">
 									<div class="custom-control custom-checkbox">
 										<input type="checkbox" class="custom-control-input" id="customCheck1">
 										<label class="custom-control-label" for="customCheck1">Se souvenir</label>
 									</div>
-								</div>
+								</div> -->
 								<div class="col-6">
-									<div class="forgot-password"><a href="#"></a></div>
+									<div class="forgot-password"><a href="#">Mot de passe oublier!</a></div>
 								</div>
 							</div>
 							<div class="row">
 								<div class="col-sm-12">
 									<div class="input-group mb-0">
 
-											<input class="btn btn-primary btn-lg btn-block" type="submit" value="Se connecter">
+											<input class="btn btn-dark btn-lg btn-block" type="submit" value="Se connecter">
 									</div>
 								</div>
 							</div>
