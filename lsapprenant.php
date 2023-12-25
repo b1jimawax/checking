@@ -1,3 +1,6 @@
+<?php
+require_once('verifi.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -80,7 +83,7 @@ $conn->close();
 						<span class="user-name">Admin</span>
 					</a>
 					<div class="dropdown-menu dropdown-menu-right dropdown-menu-icon-list">
-						<a class="dropdown-item" href="login.php"><i class="dw dw-logout"></i>Se déconnecter</a>
+						<a class="dropdown-item" href="deconnexion.php"><i class="dw dw-logout"></i>Se déconnecter</a>
 					</div>
 				</div>
 			</div>
@@ -166,9 +169,8 @@ $conn->close();
 								echo "
 								<tr>
 								    <th style='padding: 1rem;'>#ID</th>
-									<th style='padding: 1rem;'>Nom</th>
 									<th style='padding: 1rem;'>Prénom</th>
-									<th style='padding: 1rem;'>Reférenciel</th>
+									<th style='padding: 1rem;'>Cohorte</th>
 									<th style='padding: 1rem;'>Action</th>
 								</tr>
 							</thead>";
@@ -179,7 +181,6 @@ $conn->close();
 									
 										<tr>
 										<td>" . $row["idapprenant"] . "</td>
-										<td>" . $row["nom"] . "</td>
 										<td>" . $row["prenom"] . "</td>
 										<td>" . $row["referenciel"] . "</td>
 										<td>

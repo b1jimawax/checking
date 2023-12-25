@@ -16,13 +16,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($result->num_rows == 1) {
         // L'administrateur est authentifié, enregistre une session par exemple
+        session_start(); 
+        $_SESSION["nom_utilisateur"] = $nom_utilisateur;
+        $_SESSION["mot_de_passe"] = $mot_de_passe; 
         $_SESSION["admin_logged_in"] = true;
         header("Location: lsapprenant.php"); // Redirige vers la page du tableau de bord 
-
         exit();
     } else {
-        echo "";
+        $error_message = "Nom d'utilisateur ou mot de passe incorrect.";
+        // Vous pouvez également ajouter une redirection vers la page de connexion avec un message d'erreur
+        // header("Location: login.php?error=" . urlencode($error_message));
+        // exit();
+        echo $error_message;
     }
+    
 }
 // Fermer la connexion à la base de données
 $conn->close();

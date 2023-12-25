@@ -26,7 +26,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     </button>
                 </div>
                 <div class="modal-body">
-                    Votre présence a bien été enregistrée !
+                 Votre présence a bien été enregistrée !
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
@@ -75,7 +75,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 	</script> -->
 </head>
 
-<body style="background-image: url(src/images/ref);background-position: center;background-size: cover;";>
+<body style="background-image: url(src/images/ref.jpg);background-position: top;background-size: cover;";>
 	<div class="login-header box-shadow" style="background:#28a745;">
 		<div class="container-fluid d-flex justify-content-between align-items-center">
 			<div class="brand-logo ">
